@@ -20,7 +20,6 @@ ENV/
 项目生成的数据与结果
 -----------------------------
 忽略整个 data 目录 (避免上传大型.npy 矩阵或 Notebook)
-data/
 
 忽略模型评估生成的图表和日志
 results/
@@ -28,8 +27,13 @@ results/
 -----------------------------
 IDE 及操作系统缓存
 -----------------------------
-.vscode/
 .idea/
 *.swp
 .DS_Store
 Thumbs.db
+
+# Explicitly keep these folders visible/trackable in git.
+!data/
+!data/**
+!.vscode/
+!.vscode/**

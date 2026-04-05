@@ -1,0 +1,30 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "explorer.excludeGitIgnore": false,
+    "files.exclude": {
+        "data": false,
+        "**/data": false,
+        ".vscode": false,
+        "**/.vscode": false,
+        "**/data/subset_data": true,
+        "**/results": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    "search.exclude": {
+        "data": false,
+        "**/data": false,
+        ".vscode": false,
+        "**/.vscode": false,
+        "**/data/subset_data": true,
+        "**/results": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    "files.watcherExclude": {
+        "**/data/subset_data/**": true,
+        "**/results/**": true,
+        "**/.venv/**": true,
+        "**/venv/**": true
+    }
+}
